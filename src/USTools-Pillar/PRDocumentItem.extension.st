@@ -6,11 +6,6 @@ PRDocumentItem >> canvas [
 ]
 
 { #category : #'*USTools-Pillar' }
-PRDocumentItem >> parent [
-	^ self propertyAt: #parent
-]
-
-{ #category : #'*USTools-Pillar' }
 PRDocumentItem >> removeProperty: key [
 	self properties removeKey: key ifAbsent: [  ]
 ]
