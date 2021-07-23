@@ -4,11 +4,6 @@ Class {
 	#category : #'USTools-Magritte'
 }
 
-{ #category : #'*USTools-Magritte-Seaside' }
-MAMapDescription class >> defaultComponentClasses [
-	^ Array with: MAOneToManyComponent
-]
-
 { #category : #'accessing-defaults' }
 MAMapDescription class >> defaultDefinitive [
 	^ false

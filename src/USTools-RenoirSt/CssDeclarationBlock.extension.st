@@ -16,6 +16,11 @@ CssDeclarationBlock >> pageBreakInside: aCssValue [
 ]
 
 { #category : #'*USTools-RenoirSt' }
+CssDeclarationBlock >> princePdfPageLayout: aCssValue [
+	self propertyAt: 'prince-pdf-page-layout' put: aCssValue
+]
+
+{ #category : #'*USTools-RenoirSt' }
 CssDeclarationBlock >> size: aCssValue [
 	self propertyAt: 'size' put: aCssValue
 ]

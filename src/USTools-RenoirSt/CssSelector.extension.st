@@ -16,6 +16,11 @@ CssSelector >> page [
 ]
 
 { #category : #'*USTools-RenoirSt' }
+CssSelector >> princePdf [
+	^ self descendantOfType: '@prince-pdf'
+]
+
+{ #category : #'*USTools-RenoirSt' }
 CssSelector >> right [
 	^ CssPseudoClassSelector named: 'right' over: self
 ]
