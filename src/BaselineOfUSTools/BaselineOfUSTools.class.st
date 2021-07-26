@@ -40,7 +40,7 @@ BaselineOfUSTools >> baseline: spec [
 			package: 'USTools-Magritte-Seaside'
 			with: [ 
 				spec requires: #( 'Magritte' 'Seaside3' 'USTools-Magritte' ) ];
-			package: 'USTools-Pillar' with: [ spec requires: #( 'Pillar' ) ];
+			package: 'USTools-Pillar' with: [ spec requires: #( 'PillarApp' ) ];
 			package: 'USTools-QCMagritte'
 			with: [ spec requires: #( 'QCMagritte' 'USTools-Magritte' ) ];
 			package: 'USTools-RenoirSt'
