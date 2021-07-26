@@ -68,7 +68,7 @@ BaselineOfUSTools >> neoJson: spec [
 BaselineOfUSTools >> pillar: spec [
 
 	spec
-		baseline: 'Pillar'
+		baseline: 'PillarApp'
 		with: [ spec repository: 'github://pillar-markup/pillar:dev-8/src' ]
 ]
 
